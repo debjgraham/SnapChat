@@ -22,7 +22,7 @@ class SignInViewController: UIViewController {
 
 
     @IBAction func turnUpTapped(_ sender: Any) {
-        Auth.auth().signIn(withEmail: passwordTextField.text!, password: passwordTextField.text!) { (user, error) in
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
             print("We tried to sign in")
             if error != nil {
                 print("Hey we have a login error: \(error!)")
@@ -33,8 +33,8 @@ class SignInViewController: UIViewController {
                         print("Hey we have a creation error: \(error!)")
                     } else {
                         print("Created User Successfully")
-                        self.performSegue(withIdentifier: "signInSegue", sender: nil)
                     }
+                    self.performSegue(withIdentifier: "signInSegue", sender: nil)
                 })
             } else {
                 print("Signed in successfully")
