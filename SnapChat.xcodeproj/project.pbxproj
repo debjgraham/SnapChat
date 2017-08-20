@@ -17,6 +17,7 @@
 		AD2E12CE1F48CEFA005A9F45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD2E12CD1F48CEFA005A9F45 /* GoogleService-Info.plist */; };
 		AD5229261F4A02B800B5DDC9 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */; };
 		AD5229281F4A19C300B5DDC9 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5229271F4A19C300B5DDC9 /* SelectUserViewController.swift */; };
+		AD52292E1F4A255500B5DDC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52292D1F4A255500B5DDC9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AD2E12CD1F48CEFA005A9F45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		AD5229271F4A19C300B5DDC9 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		AD52292D1F4A255500B5DDC9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EA8A48D316DFC9D2B14F9FE9 /* Pods_SnapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B4CD5B64C57D00CE6E5BEC /* Pods-SnapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,12 +80,10 @@
 		AD2E12BA1F48CCC8005A9F45 /* SnapChat */ = {
 			isa = PBXGroup;
 			children = (
+				AD52292B1F4A24EF00B5DDC9 /* View Controllers */,
+				AD52292C1F4A24FF00B5DDC9 /* Models */,
 				AD13C3781F4913F100DC6907 /* SnapChat.entitlements */,
 				AD2E12BB1F48CCC8005A9F45 /* AppDelegate.swift */,
-				AD2E12BD1F48CCC8005A9F45 /* SignInViewController.swift */,
-				AD13C3761F49115000DC6907 /* SnapsViewController.swift */,
-				AD5229271F4A19C300B5DDC9 /* SelectUserViewController.swift */,
-				AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */,
 				AD2E12BF1F48CCC8005A9F45 /* Main.storyboard */,
 				AD2E12C21F48CCC8005A9F45 /* Assets.xcassets */,
 				AD2E12C41F48CCC8005A9F45 /* LaunchScreen.storyboard */,
@@ -91,6 +91,25 @@
 				AD2E12CD1F48CEFA005A9F45 /* GoogleService-Info.plist */,
 			);
 			path = SnapChat;
+			sourceTree = "<group>";
+		};
+		AD52292B1F4A24EF00B5DDC9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E12BD1F48CCC8005A9F45 /* SignInViewController.swift */,
+				AD13C3761F49115000DC6907 /* SnapsViewController.swift */,
+				AD5229271F4A19C300B5DDC9 /* SelectUserViewController.swift */,
+				AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AD52292C1F4A24FF00B5DDC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD52292D1F4A255500B5DDC9 /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		BCEE864A769925A6FC521900 /* Pods */ = {
@@ -246,6 +265,7 @@
 			files = (
 				AD2E12BE1F48CCC8005A9F45 /* SignInViewController.swift in Sources */,
 				AD5229261F4A02B800B5DDC9 /* PictureViewController.swift in Sources */,
+				AD52292E1F4A255500B5DDC9 /* User.swift in Sources */,
 				AD5229281F4A19C300B5DDC9 /* SelectUserViewController.swift in Sources */,
 				AD2E12BC1F48CCC8005A9F45 /* AppDelegate.swift in Sources */,
 				AD13C3771F49115000DC6907 /* SnapsViewController.swift in Sources */,

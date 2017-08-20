@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 class SignInViewController: UIViewController {
 
@@ -18,6 +19,8 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
 
@@ -33,8 +36,10 @@ class SignInViewController: UIViewController {
                         print("Hey we have a creation error: \(error!)")
                     } else {
                         print("Created User Successfully")
+                        Database.database().reference().child("users").child(user!.uid).child("email").setValue(user!.email)
+                        
+                        self.performSegue(withIdentifier: "signInSegue", sender: nil)
                     }
-                    self.performSegue(withIdentifier: "signInSegue", sender: nil)
                 })
             } else {
                 print("Signed in successfully")
