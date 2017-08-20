@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "293B1F27B09CC832C090B39DFFF3702A0BB9A17D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "293B1F27B09CC832C090B39DFFF3702A0BB9A17D" : 9223372036854775807,
+    "126EA57CB0176951EFA07319CEA0CAE3EE9290B5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02294789-4B53-464B-A385-ED48181279F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "293B1F27B09CC832C090B39DFFF3702A0BB9A17D" : "SnapChat\/",
+    "126EA57CB0176951EFA07319CEA0CAE3EE9290B5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SnapChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SnapChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/debjgraham\/FreakingiPhoneAppiOS10Swift3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "126EA57CB0176951EFA07319CEA0CAE3EE9290B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/debjgraham\/SnapChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "293B1F27B09CC832C090B39DFFF3702A0BB9A17D"
+    }
+  ]
+}
