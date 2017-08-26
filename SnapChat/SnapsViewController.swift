@@ -42,15 +42,23 @@ class SnapsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return snaps.count
+        if snaps.count == 0 {
+            return 1
+        } else {
+            return snaps.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         
-        let snap = snaps[indexPath.row]
-        cell.textLabel?.text = snap.from
-        
+        if snaps.count == 0 {
+            cell.textLabel?.text = "🤔 You have no snaps 😱"
+        } else {
+            
+            let snap = snaps[indexPath.row]
+            cell.textLabel?.text = snap.from
+        }
         return cell
     }
     

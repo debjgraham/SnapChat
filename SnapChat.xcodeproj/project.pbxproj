@@ -100,10 +100,10 @@
 		AD52292B1F4A24EF00B5DDC9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */,
 				AD2E12BD1F48CCC8005A9F45 /* SignInViewController.swift */,
 				AD13C3761F49115000DC6907 /* SnapsViewController.swift */,
 				AD5229271F4A19C300B5DDC9 /* SelectUserViewController.swift */,
-				AD5229251F4A02B800B5DDC9 /* PictureViewController.swift */,
 				AD67EA761F4BADA300485F04 /* ViewSnapViewController.swift */,
 			);
 			name = "View Controllers";
@@ -247,6 +247,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -254,6 +255,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
